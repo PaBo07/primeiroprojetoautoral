@@ -1,0 +1,27 @@
+@import url("../styles/header.css");
+@import url('../styles/autor.css');
+@import url("../styles/apresentacao.css");
+@import url("../styles/curriculo.css");
+@import url("../styles/certificacao.css");
+@import url("../styles/rodape.css");
+@import url("../styles/projetos.css");
+
+:root{
+  --cor-de-fundo:#1d1c1c;
+  --cor-de-fundo-secundaria:#858585;
+  --cor-da-fonte:white;
+  --cor-fonte-secundaria:#002F52;
+  --cor-de-destaque:#eb9b00;
+  --tipo-fonte: 'Inter', sans serif;
+}
+
+body{
+  background-color:var(--cor-de-fundo);
+  color: var(--cor-da-fonte);
+  font-family:var(--tipo-fonte);
+}
+
+.texto-destaque{
+  color:var(--cor-de-destaque);
+  font-weight: 700;
+}

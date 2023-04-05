@@ -1,0 +1,38 @@
+.autor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+  margin: 3em 1em 1em 1em;
+  text-align: center;
+}
+
+.autor__foto-perfil{
+  border-radius: 3.75rem;
+  margin-bottom: 1em;
+}
+
+.autor__identidade{
+  padding-top: 1em;
+}
+
+.autor__identidade-nome{
+  padding-bottom: 0.2em;
+  font-size: 2.25rem;
+  font-weight: 100;
+}
+
+.autor__identidade-cargo{
+  font-size: 1.75em;
+}
+
+.autor__identidade-lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em 1.5em 0.2em 1.5em;
+}
+
+.autor__identidade-lista-item{
+  padding: 1em;
+}

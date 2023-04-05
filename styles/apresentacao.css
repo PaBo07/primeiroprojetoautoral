@@ -1,0 +1,12 @@
+.apresentacao{
+  display: flex;
+  align-items: center;
+  margin: 0 1em;
+  flex-direction: column;
+  text-align: center;
+}
+
+.apresentacao__texto{
+  padding-bottom: 0.5em;
+  font-size: 20px;
+}

@@ -1,0 +1,23 @@
+.certificacao{
+  background-color:var(--cor-de-fundo);
+  padding: 0.5em 0.2em;
+}
+
+.titulo__certificacao{
+  color: var(--cor-da-fonte);
+  font-weight:700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0 0.5em 0;
+  background-color: var(--cor-de-fundo);
+}
+
+.card__corpo-certificacao{
+  margin: 0.5em 0.5em 0.1em 0.5em;
+  padding: 1.5em 1.5em 0.5em 1.5em;
+  background-color:var(--cor-da-fonte);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}

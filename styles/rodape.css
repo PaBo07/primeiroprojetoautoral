@@ -1,0 +1,21 @@
+.rodape{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5em;
+  background-color: var(--cor-de-fundo-secundaria);
+  padding: 1em 0.5em;
+}
+
+.rodape__curriculo-link{
+  background-color: var(--cor-de-destaque);
+  padding: 1em;
+  border-radius: 10px;
+  font-weight: 700;
+  color: var(--cor-da-fonte);
+  text-decoration: none;
+}
+
+.rodape__imagem-link{
+  padding: 0.3em;
+}

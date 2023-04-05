@@ -1,0 +1,60 @@
+.curriculo-profissional{
+  background-color:var(--cor-de-fundo-secundaria) ;
+  padding: 0.5em 0.2em;
+}
+
+.titulo__curriculo{
+  color: var(--cor-da-fonte);
+  font-weight:700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0 0.5em 0;
+  background-color: var(--cor-de-fundo-secundaria);
+}
+
+.card__corpo-curriculo{
+  margin: 0.5em;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  background-color:white;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem-logo{
+  padding-right: 1em;
+}
+
+.card__texto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.card__instituicao{
+  padding-bottom: 0.5em;
+  color: var(--cor-de-destaque);
+  font-weight: 700;
+}
+
+.card__cargo{
+  color: var(--cor-fonte-secundaria);
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+
+.card__resumo{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.card__resumo-texto{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding-bottom: 1em;
+  color: var(--cor-fonte-secundaria);
+}

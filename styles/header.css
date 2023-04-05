@@ -1,0 +1,28 @@
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+}
+
+.cabecalho__identidade{
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho__github{
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho__botao{
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho__links{
+  padding: 0.3em;
+  text-decoration:none;
+  color: var(--cor-da-fonte);
+  font-weight: 700;
+}
